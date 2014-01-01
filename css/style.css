@@ -5,10 +5,10 @@ body
 .bubble
 {
 	display: block;
-	position: absolute;
+	position: fixed;
 	background-color: #B5B5B5;
 	width: 100px;
 	height: 100px;
-	left: 100px;
-	top: 100px;
+	border-radius: 100px;
+	moz-border-radius: 100px;
 }
