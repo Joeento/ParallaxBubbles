@@ -1,6 +1,7 @@
 body
 {
-	background-color: #F2F2F2
+	background-color: #F2F2F2;
+	height:6000px;
 }
 .bubble
 {
@@ -11,4 +12,5 @@ body
 	height: 100px;
 	border-radius: 100px;
 	moz-border-radius: 100px;
+	opacity: .8;
 }

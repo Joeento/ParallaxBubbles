@@ -1,9 +1,10 @@
-function Bubble(x,y,size)
+function Bubble(divName, x,y,size)
 {
    this.x = x;
    this.y = y;
    this.size = size;
-   this.speed = (Math.random()*10)+1;
+   this.speed = (Math.random()*20)+1;
+   this.divName = divName;
    this.getXString = function()
    {
        return this.x+"px";
@@ -15,5 +16,9 @@ function Bubble(x,y,size)
    this.getSizeString = function()
    {
        return this.size+"px";
+   }
+   this.update = function()
+   {
+       this.y-=this.speed;
    }
 }
