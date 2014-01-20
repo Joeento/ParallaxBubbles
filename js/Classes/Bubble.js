@@ -17,8 +17,11 @@ function Bubble(divName, x,y,size)
    {
        return this.size+"px";
    }
-   this.update = function()
+   this.float = function()
    {
        this.y-=this.speed;
+   }
+   this.sink = function() {
+       this.y+=this.speed;
    }
 }
